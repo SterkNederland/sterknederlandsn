@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sterk Nederland - Standpunten</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Onze Standpunten</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="standpunten.html">Standpunten</a></li>
+                <li><a href="merch.html">Merch</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Onze Kernpunten</h2>
+        <ul>
+            <li>🇳🇱 Nederland moet weer zelf beslissen, minder invloed van de EU.</li>
+            <li>🚫 Strenger immigratiebeleid, opvang alleen voor echte vluchtelingen.</li>
+            <li>💰 Lagere belastingen en meer kansen voor ondernemers.</li>
+            <li>🌾 Boeren beschermen en de voedselvoorziening veiligstellen.</li>
+            <li>🚨 Meer veiligheid en een hardere aanpak van criminaliteit.</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Sterk Nederland</p>
+    </footer>
+</body>
+</html>
