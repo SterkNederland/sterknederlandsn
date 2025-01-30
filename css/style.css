@@ -1,11 +1,13 @@
-body {
+ody {
     font-family: Arial, sans-serif;
     background-color: #b4031a;
     color: #333;
     margin: 0;
     padding: 0;
     text-align: center;
-    padding-bottom: 60px; /* Voorkomt overlap met de footer */
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -29,7 +31,8 @@ nav ul li a {
     text-decoration: none;
 }
 
-section {
+main {
+    flex: 1; /* Zorgt ervoor dat de inhoud de resterende ruimte inneemt */
     padding: 20px;
     background: white;
     margin: 20px auto;
@@ -41,10 +44,7 @@ footer {
     background: #004aad;
     color: white;
     padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 40px;
-    line-height: 20px;
     text-align: center;
+    width: 100%;
+    position: relative; /* Verwijderd de 'fixed' positie */
 }
