@@ -1,11 +1,11 @@
-ody {
+body {
     font-family: Arial, sans-serif;
-    background-color: #b4031a;
+    background-color: #b4031a; /* Rood als achtergrondkleur */
     color: #333;
     margin: 0;
     padding: 0;
     text-align: center;
-    min-height: 100vh; 
+    min-height: 100vh; /* Zorgt ervoor dat de pagina de volledige hoogte vult */
     display: flex;
     flex-direction: column;
 }
@@ -14,11 +14,13 @@ header {
     background-color: #004aad;
     color: white;
     padding: 10px 0;
+    text-align: center; /* Zorgt ervoor dat de header tekst in het midden staat */
 }
 
 nav ul {
     list-style: none;
     padding: 0;
+    text-align: center; /* Zorgt ervoor dat de navigatie links in het midden staan */
 }
 
 nav ul li {
@@ -31,13 +33,13 @@ nav ul li a {
     text-decoration: none;
 }
 
-main {
-    flex: 1;
+section {
     padding: 20px;
     background: white;
     margin: 20px auto;
     width: 80%;
     border-radius: 5px;
+    text-align: left; /* Zorgt ervoor dat de tekst in de sectie links uitgelijnd is */
 }
 
 footer {
