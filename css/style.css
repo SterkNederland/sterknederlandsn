@@ -50,3 +50,10 @@ footer {
     width: 100%;
     position: relative;
 }
+
+ul li {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+<link rel="stylesheet" href="css/style.css">
