@@ -32,7 +32,7 @@ nav ul li a {
 }
 
 main {
-    flex: 1; /* Zorgt ervoor dat de inhoud de resterende ruimte inneemt */
+    flex: 1;
     padding: 20px;
     background: white;
     margin: 20px auto;
@@ -46,5 +46,5 @@ footer {
     padding: 10px;
     text-align: center;
     width: 100%;
-    position: relative; /* Verwijderd de 'fixed' positie */
+    position: relative;
 }
